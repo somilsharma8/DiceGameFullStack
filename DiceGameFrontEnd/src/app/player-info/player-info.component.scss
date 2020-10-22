@@ -1,0 +1,106 @@
+body {
+  position: center;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  height: 100%;
+
+  input.ng-invalid {
+    border-left: #96290D 10px solid;
+  }
+
+  input.ng-valid {
+    border-left: #32A716 10px solid;
+  }
+
+  .players {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    top: 20%;
+    left: 27%;
+    border: 3px dotted rgb(143, 100, 196);
+    box-shadow: 5px 5px #C9A3F6;
+    border-radius: 25px;
+    box-sizing: border-box;
+    //background-color: white;
+    //background-image: url("https://thumbs.gfycat.com/PastelComplicatedAfricanfisheagle-small.gif");
+    //background-image: url("https://thumbs.gfycat.com/SecondTartCygnet-small.gif");
+    &__playerInput {
+      font-weight: 700;
+      font-size: 17px;
+      width: 40rem;
+      margin-top: 2.5rem;
+      margin-bottom: 3rem;
+      padding: 1rem;
+      padding-left: 7rem;
+      padding-right: 7rem;
+      text-align: center;
+      border-radius: 8px;
+      //margin-bottom: 8px;
+      border: 0;
+      //border-color: rgb(95, 158, 160);
+      background-color: rgb(235, 235, 235);
+      //box-shadow: 4px 4px #888888;
+    }
+
+    &__scoreInput {
+      font-weight: 700;
+      font-size: 17px;
+      width: 40rem;
+      //margin-top: 8rem;
+      margin-bottom: 8rem;
+      padding: 1rem;
+      padding-left: 7rem;
+      padding-right: 7rem;
+      text-align: center;
+      border-radius: 8px;
+      //margin-bottom: 8px;
+      border: 0;
+      //border-color: rgb(95, 158, 160);
+      background-color: rgb(235, 235, 235);
+      //box-shadow: 4px 4px #888888;
+    }
+
+    &__button {
+      //display: inline-block;
+      //margin-top: 8rem;
+      //margin-bottom: 2rem;
+      //margin-left: 40px;
+      //margin-right: 40px;
+      position: absolute;
+      top: 80%;
+      left: 40%;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-right: 14px;
+      padding-left: 14px;
+      font-size: 17px;
+      font-weight: 700;
+      color: rgb(11, 76, 131);
+      //box-shadow: 3px 3px #888888;
+      border-radius: 8px;
+    }
+
+    &__image {
+      position: absolute;
+      max-height: 100%;
+      width: 100%;
+      height: auto;
+      padding: 15rem;
+      right: 0%;
+      left: 0%;
+      top: 0%;
+      bottom: 0%;
+      object-fit: contain;
+    }
+
+    &__gif {
+      position: absolute;
+      background-image: url("https://thumbs.gfycat.com/PastelComplicatedAfricanfisheagle.webp");
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 50%;
+      //padding: 10rem;
+    }
+  }
+}

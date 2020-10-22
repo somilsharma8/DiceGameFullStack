@@ -1,0 +1,131 @@
+body {
+  position: center;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  height: 100%;
+
+  h1 {
+    text-shadow: 100px;
+    margin-bottom: 0rem;
+    padding-top: 5rem;
+    color: rgb(186, 199, 205);
+    font-weight: 900;
+    font-size: 60px;
+    font-family: Verdana;
+    text-align: center;
+  }
+
+  p {
+    position: relative;
+    text-align: center;
+    top: 25%;
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(46, 165, 106);
+  }
+
+  .game {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    top: 5%;
+    left: 27%;
+    margin-bottom: 0px;
+    //border: 3px dotted rgb(206, 37, 46);
+    //box-shadow: 5px 5px #E8DE14;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    &__playerTurn {
+      position: absolute;
+      text-align: center;
+      top: 5%;
+      left: 37%;
+      margin-right: 2rem;
+      font-weight: 900;
+      font-size: 30px;
+      color: rgb(134, 255, 255);
+    }
+
+    &__imgContainer {
+      position: absolute;
+      width: 38%;
+      height: 35%;
+      top: 33%;
+      left: 35%;
+      //border: 3px dotted rgb(206, 37, 46);
+      border-radius: 25px;
+      box-sizing: border-box;
+
+      &--img {
+        position: static;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        //left: 60%;
+        //background-color: red;
+        background-image: url("gamePageResizedDice.gif");
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__rollDiceButton {
+      position: absolute;
+      top: 80%;
+      left: 42%;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-right: 14px;
+      padding-left: 14px;
+      font-size: 17px;
+      font-weight: 700;
+      color: rgb(11, 76, 131);
+      //box-shadow: 3px 3px #888888;
+      border-radius: 8px;
+    }
+  }
+
+  .stats {
+    position: relative;
+    text-align: center;
+    width: 25%;
+    height: 70%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    //top: 0%;
+    bottom: 65%;
+    left: 70%;
+    //right: 10%;
+    border: 3px dotted rgb(143, 100, 196);
+    box-shadow: 5px 5px #C9A3F6;
+    border-radius: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+
+    &__playerRank {
+      position: absolute;
+      text-align: center;
+      top: 5%;
+      left: 22%;
+      font-weight: 900;
+      font-size: 30px;
+      color: rgb(134, 255, 255);
+    }
+  }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  //border: 7px solid rgb(134, 255, 255);
+  box-shadow: inset 0 0 2.5px 2px #537895;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, rgb(16, 165, 159), #2326c8);
+  border-radius: 50px;
+}
+}

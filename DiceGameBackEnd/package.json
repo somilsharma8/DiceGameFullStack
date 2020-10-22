@@ -1,0 +1,17 @@
+{
+  "name": "dice_game_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Somil",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6"
+  }
+}

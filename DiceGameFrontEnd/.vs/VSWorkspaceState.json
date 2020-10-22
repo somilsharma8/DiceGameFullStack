@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\game-page",
+    "\\src\\app\\player-info",
+    "\\src\\app\\services"
+  ],
+  "SelectedNode": "\\src\\app\\services\\app-http.service.ts",
+  "PreviewInSolutionExplorer": false
+}
